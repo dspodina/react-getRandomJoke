@@ -75,12 +75,6 @@ li {
 }
 
 @media screen and (max-width: 600px) {
-  .joke-container {
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-
   .flags {
     flex-direction: row;
     flex-wrap: wrap;
