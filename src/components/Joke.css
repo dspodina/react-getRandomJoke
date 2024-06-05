@@ -1,0 +1,92 @@
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.joke,
+.delivery {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.setup {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.flags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+li {
+  list-style-type: none;
+  font-weight: 300;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.flags li.false {
+  background: #d8d4ed;
+  color: #5f707c;
+}
+
+.flags li.true {
+  background: var(--red-color);
+  color: #333;
+}
+
+.safe,
+.unsafe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.underline {
+  width: 7rem;
+  height: 0.25rem;
+  background: var(--violet-color);
+  margin: 10px 0 50px;
+}
+
+.green-dot {
+  font-size: 72px;
+  color: var(--green-color);
+  margin-right: 5px;
+  padding-bottom: 10px;
+}
+
+.red-dot {
+  font-size: 72px;
+  color: var(--red-color);
+  margin-right: 5px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .joke-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .flags {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  li {
+    margin: 5px 10px;
+  }
+}
