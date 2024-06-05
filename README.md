@@ -10,15 +10,19 @@ This Simple Random Jokes App is a lightweight application that fetches jokes fro
 
 ### Clone the repository to your local machine
 
-    git clone https://github.com/dspodina/jokes-api
+`git clone https://github.com/dspodina/jokes-api`
 
 ### Navigate to the project directory
 
-    cd jokes-api
+`cd jokes-api`
 
 ### Install dependencies
 
-    npm install
+`npm install`
+
+### Run server
+
+`npm run dev`
 
 ## Technologies Used
 
@@ -26,6 +30,6 @@ This Simple Random Jokes App is a lightweight application that fetches jokes fro
 - **JavaScript**: Logic and functionality.
 - **Fetch API**: For making requests to the API.
 
-## Screenshot 
+## Screenshot
 
 ![Random Joke](./public/screenshot.png)
