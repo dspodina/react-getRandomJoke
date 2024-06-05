@@ -1,8 +1,31 @@
-# React + Vite
+# Random Jokes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Simple Random Jokes App is a lightweight application that fetches jokes from an API and displays them to the user. It provides a quick and easy way to brighten your day with a good laugh or share a joke with friends.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches a random joke from the API.
+
+## Installation
+
+### Clone the repository to your local machine
+
+    git clone https://github.com/dspodina/jokes-api
+
+### Navigate to the project directory
+
+    cd jokes-api
+
+### Install dependencies
+
+    npm install
+
+## Technologies Used
+
+- **React**: Frontend development.
+- **JavaScript**: Logic and functionality.
+- **Fetch API**: For making requests to the API.
+
+## Screenshot 
+
+![Random Joke](./public/screenshot.png)
