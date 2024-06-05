@@ -39,7 +39,7 @@ Joke.propTypes = {
     joke: PropTypes.string,
     setup: PropTypes.string,
     delivery: PropTypes.string,
-    safe: PropTypes.string,
+    safe: PropTypes.bool.isRequired,
     flags: PropTypes.objectOf(PropTypes.bool).isRequired,
   }).isRequired,
 };
